@@ -21,5 +21,6 @@ void va_end(va_list ap);
 void va_copy(va_list dest, va_list src);
 char *utoa_binary(unsigned int num);
 int _printf(const char *format, va_list args);
+size_t strlen(const char *s);
 
 #endif
